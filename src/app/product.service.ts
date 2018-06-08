@@ -9,6 +9,7 @@ import { Observable } from 'rxjs/Observable';
 export class ProductService {
 
   private _albumUrl = '../assets/album.json';
+  private _productsUrl = '../assets/products.json';
 
   constructor(private _http: Http) { }
 
